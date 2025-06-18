@@ -6,7 +6,7 @@ This project aims to build a regression model to predict future sales based on h
 
 ## Task
 
-Businesses struggle to estimate future sales based on past performance. This project addresses this problem by developing a regression model to predict future sales using historical data.
+Businesses struggle to estimate future sales based on past performance. This project addresses this problem by developing a regression model to predict future sales using historical data. 
 
 ## Objective
 
