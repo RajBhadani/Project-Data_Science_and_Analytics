@@ -29,7 +29,7 @@ The dataset used for this project is "sales_data.csv".
 
 ## Notebook Structure
 
-The Jupyter Notebook is structured into the following sections:
+The Colab Notebook is structured into the following sections:
 
 1.  **Data loading:** Imports necessary libraries and loads the "sales_data.csv" file into a pandas DataFrame.
 2.  **Data cleaning:** Checks for and handles potential missing values. Identifies outliers using Z-scores and IQR methods.
