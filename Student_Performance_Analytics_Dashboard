@@ -1,0 +1,54 @@
+# Student Performance Analysis
+
+This project analyzes student performance data to identify potential risk factors for academic failure or dropout.
+
+## Task
+
+The primary task is to analyze student data to highlight performance trends and risk areas. This involves:
+
+- Calculating averages for marks, attendance, and logins.
+- Determining the correlation between these factors.
+- Assessing the impact of absenteeism on student performance.
+- Visualizing the differences between top-performing and struggling students.
+
+## Dataset
+
+The analysis uses the `student_performance_dataset.csv` file, which contains student data with columns related to marks, attendance, and logins.
+
+## Notebook Structure
+
+The analysis is structured into several sections within the Jupyter Notebook:
+
+1.  **Data Loading:** Imports necessary libraries and loads the dataset.
+2.  **Data Exploration:** Examines the dataset's shape, data types, missing values, and descriptive statistics, and visualizes the distribution of key variables.
+3.  **Data Cleaning:** Handles missing values, duplicates, incorrect data types, and outliers.
+4.  **Data Wrangling:** Calculates average marks, attendance, and logins, and creates a combined performance score.
+5.  **Data Analysis:** Analyzes the correlation between key metrics, identifies at-risk students, and segments students into performance groups.
+6.  **Feature Engineering:** Creates a 'risk_score' feature.
+7.  **Data Visualization:** Attempts to visualize the average marks of top vs. struggling students and the correlation matrix.
+
+## Key Findings
+
+Based on the analysis:
+
+- Four students were identified as at-risk due to low performance and high absenteeism.
+- A weak negative correlation was observed between attendance and marks, with a seemingly non-linear relationship requiring further investigation.
+- Students were segmented into "Top Performer", "Struggling Student", and "Average" groups based on their average marks.
+- Weak correlations were found between average marks, average attendance, and average logins.
+- A risk score was calculated to indicate potential academic risk.
+
+## Next Steps
+
+- Investigate the non-linear relationship between attendance and marks in more detail.
+- Address and resolve the issues with generating and displaying the data visualizations in the notebook environment.
+
+## How to Use
+
+1.  Clone the repository to your local machine.
+2.  Ensure you have the required libraries installed (pandas, numpy, matplotlib, seaborn).
+3.  Place the `student_performance_dataset.csv` file in the same directory as the notebook.
+4.  Open and run the notebook in a Jupyter environment (like Google Colab or Jupyter Notebook) to reproduce the analysis.
+
+## Contributing
+
+Feel free to fork this repository and contribute to the analysis or address the identified issues.
