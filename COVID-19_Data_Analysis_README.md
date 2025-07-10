@@ -1,4 +1,4 @@
-##COVID-19 Data Analysis
+#COVID-19 Data Analysis
 
 This project aims to perform a comprehensive exploratory data analysis (EDA) and visualization of COVID-19 datasets. It provides key insights into the pandemic's spread, recovery trends, death rates, and country-wise comparisons using powerful data science tools and techniques.
 
